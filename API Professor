@@ -23,7 +23,8 @@ input() = int(nota1, nota2, nota3, nota4)
 
 comando = f"""
 SELECT id FROM notas
-INSERT into notas ('{nota1}'; '{nota2}';'{nota3}';'{nota4}';)
+INSERT into notas ('{nota1}'; '{nota2}';'{nota3}';'{nota4}');
+INSERT into notas ('media_total);
 """
 
 
